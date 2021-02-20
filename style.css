@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.splash {
+    min-height: 100%;
+    background:
+        radial-gradient(transparent, black),
+        url("./img/jason-leem-50bzI1F6urA-unsplash.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 120px 6fr 1fr;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0px;
+}
+
+.nav-item {
+    list-style: none;
+    margin: 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    font-weight: 500;
+}
+
+a:hover {
+    color: white;
+}
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    color:#FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
